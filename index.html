@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Primera pagina</title>
+        <style>
+            h1 {
+                color: red;
+                font-size: 1.5em;
+                text-decoration: underline;
+            }
+
+            h2 {
+                color: rgb(0,232,15);
+                text-align: center;
+            }
+
+            body {
+                font-size: 11px;
+                background-color: rgb(100,230,205);
+            }
+
+            #listas {
+                background-color: rgb(199,22,15);
+            }
+
+            .lista {
+                background-color: silver;
+
+            }
+
+            p {
+                font-family: sans-serif;
+                font-style: italic;
+                font-weight: bold;
+                line-height: 2em;  
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2 id="tit">Titulos y texto</h2>
+        <h1>El titulo mas importante es este con con la etiqueda h1</h1>
+        <h6>El titulo menos importante es este con la etiqueta h6</h6>
+        <p>Esto es un parrafo con la etiqueta p <br>
+        Aqui hay un salto de linea por la etiqueta anterior br <br>
+        Tambien es importante mencionar que hay etiquetas de h1 hasta h6</p>
+        <p>Todo lo que este dentro de la etiqueta style es css </p>
+        <p><strong>oracion en negrita</strong></p>
+        <p><em>Cursiva</em></p>
+
+        <h2 id="listas">Listas</h2>
+        <h3>Normal</h3>
+        <ul>
+            <li class="lista">Hola</li>
+            <li class="lista">Adios</li>
+            <li class="lista">Como estas</li>
+        </ul>
+
+        <h3>Enumerada</h3>
+        <ol>
+            <li class="lista">Hola</li>
+            <li class="lista">Adios</li>
+            <li class="lista">Como estas</li>
+        </ol>
+
+        <h2 id="imagenes">Imagenes</h2>
+        <p>Aqui se inserta un imagen y se hace uso de los atributos: <br> 
+            src que significa sourse <br>
+            alt que significa texto alternativo a la imagen si no se ve <br>
+            width ancho de la imagen
+            height altura de la imagen
+        </p>
+        <img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png" alt="imagen de kodeacademy">
+        <p>Aqui se toma otra imagen y se redimenciona</p>
+        <img src="https://www.kasandbox.org/programming-images/animals/rabbit.png" alt="Rabbit with lop ears in barn" width="203" height="50"> 
+        
+        <h2 id="enl">Enlaces</h2>
+        <p>Se usa el atributom href para poner la direccion a la que saltara y target para abrir en otra pagina</p>
+        <a href="https://www.google.com.mx/">Ve a google</a> <br>
+        <a target="_blank" href="https://www.google.com.mx/">Abre google en una nueva pagina</a>
+        
+        <h2 id="tabl">Tablas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre de la mascota</th>
+                    <th>Especie</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ambar</td>
+                    <td>Perro</td>
+                    <td>Blanco</td>
+                </tr>
+                <tr>
+                    <td>Azul</td>
+                    <td>Gato</td>
+                    <td>Gris</td>
+                </tr>
+                <tr>
+                    <td>Jaime</td>
+                    <td>Cotorro</td>
+                    <td>Verde</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Vinculos internos</h2>
+        <ul>
+            <li><a target="_blank" href="#tit">Titulos y textos</a></li>
+            <li><a target="_blank" href="#listas">Listas</a></li>
+            <li><a target="_blank" href="#imagenes">Imagenes</a></li>
+            <li><a target="_blank" href="#enl">Enlaces</a></li>
+            <li><a target="_blank" href="#tabl">Tablas</a></li>
+        </ul>
+    </body>
+    <!----Comentario-->  
+
+
+</html>
